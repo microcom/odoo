@@ -7,19 +7,10 @@ class TestUi(openerp.tests.HttpCase):
         self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop", login="admin")
 
     def test_02_admin_checkout(self):
-        pass
-        # WARNING 04666-34-a94358-all openerp.models: mail.message.create() includes unknown fields: type
-        # when installing module mic/microcom_student
-        # self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product", login="admin")
+        self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product", login="admin")
 
     def test_03_demo_checkout(self):
-        pass
-        # WARNING 04666-34-a94358-all openerp.models: mail.message.create() includes unknown fields: type
-        # when installing module mic/microcom_student
-        # self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product", login="demo")
+        self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product", login="demo")
 
     def test_04_public_checkout(self):
-        pass
-        # WARNING 04666-34-a94358-all openerp.models: mail.message.create() includes unknown fields: type
-        # when installing module mic/microcom_student
-        # self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product")
+        self.phantom_js("/", "odoo.__DEBUG__.services['web.Tour'].run('shop_buy_product', 'test')", "odoo.__DEBUG__.services['web.Tour'].tours.shop_buy_product")
