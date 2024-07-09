@@ -38,9 +38,9 @@ class SaleOrderLine(models.Model):
         # nothing policy. A product can have several BoMs, we don't know which one was used when the
         # delivery was created.
         bom_delivered = {}
-        for bom in self.product_id.product_tmpl_id.bom_ids:
-            if bom.type != 'phantom':
-                continue
+        bom_id = self.env['mrp.bom']._bom_find(product_id=self.product_id.id, properties=self.property_ids.ids)
+        bom = self.env['mrp.bom'].browse(bom_id)
+        if bom and bom.type == 'phantom':
             bom_delivered[bom.id] = False
             product_uom_qty_bom = self.env['product.uom']._compute_qty_obj(self.product_uom, self.product_uom_qty, bom.product_uom)
             bom_exploded = self.env['mrp.bom']._bom_explode(bom, self.product_id, product_uom_qty_bom)[0]
@@ -125,10 +125,7 @@ class AccountInvoiceLine(models.Model):
                 qty_done = sum([uom_obj._compute_qty_obj(x.uom_id, x.quantity, x.product_id.uom_id) for x in s_line.invoice_lines if x.invoice_id.state in ('open', 'paid')])
                 quantity = uom_obj._compute_qty_obj(self.uom_id, self.quantity, self.product_id.uom_id)
                 # Put moves in fixed order by date executed
-                moves = self.env['stock.move']
-                for procurement in s_line.procurement_ids:
-                    moves |= procurement.move_ids
-                moves.sorted(lambda x: x.date)
+                moves = s_line.mapped('procurement_ids.move_ids').sorted(lambda x: x.date)
                 # Go through all the moves and do nothing until you get to qty_done
                 # Beyond qty_done we need to calculate the average of the price_unit
                 # on the moves we encounter.
@@ -143,5 +140,5 @@ class AccountInvoiceLine(models.Model):
                         prod_quantity = factor * quantity
                         average_price_unit += self._compute_average_price(prod_qty_done, prod_quantity, prod_moves)
                     price_unit = average_price_unit or price_unit
-                    price_unit = uom_obj._compute_qty_obj(self.uom_id, price_unit, self.product_id.uom_id, round=False)
+                    price_unit = self.product_id.uom_id._compute_price(self.product_id.uom_id.id, price_unit, to_uom_id=self.uom_id.id)
         return price_unit

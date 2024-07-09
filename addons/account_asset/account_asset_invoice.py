@@ -77,7 +77,11 @@ class AccountInvoiceLine(models.Model):
         if self.invoice_id.type == 'out_invoice' and self.asset_category_id:
             self.account_id = self.asset_category_id.account_asset_id.id
         elif self.invoice_id.type == 'in_invoice' and self.asset_category_id:
-            self.account_id = self.asset_category_id.account_depreciation_id.id
+            #DO NOT FORWARDPORT
+            if self.asset_category_id.account_income_recognition_id:
+                self.account_id = self.asset_category_id.account_asset_id.id
+            else:
+                self.account_id = self.asset_category_id.account_depreciation_id.id
 
     @api.onchange('uom_id')
     def _onchange_uom_id(self):
@@ -112,6 +116,7 @@ class ProductTemplate(models.Model):
     def onchange_deferred_revenue(self):
         if self.deferred_revenue_category_id:
             self.property_account_income_id = self.deferred_revenue_category_id.account_asset_id
+            self.company_id = self.deferred_revenue_category_id.company_id
 
     @api.onchange('asset_category_id')
     def onchange_asset(self):

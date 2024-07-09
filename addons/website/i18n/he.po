@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
-"PO-Revision-Date: 2016-07-24 08:37+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-04-16 07:53+0000\n"
+"Last-Translator: דודי מלכה <Dudimalka6@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -1301,7 +1301,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Columns"
-msgstr ""
+msgstr "עמודות"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1582,7 +1582,7 @@ msgstr "תיאור ..."
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Design"
-msgstr ""
+msgstr "עיצוב"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1642,7 +1642,7 @@ msgstr "שם-מתחם (דומיין)"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Don't hesitate to"
-msgstr ""
+msgstr "אל תהסס ל"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2041,7 +2041,7 @@ msgstr "שדה ירוק"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Grid"
-msgstr ""
+msgstr "רשת"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
@@ -2066,7 +2066,7 @@ msgstr "עריכת HTML"
 #. module: website
 #: model:ir.model,name:website.model_ir_http
 msgid "HTTP routing"
-msgstr ""
+msgstr "ניתוב HTTP"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2365,7 +2365,7 @@ msgstr "עודכן לאחרונה על"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Launch"
-msgstr ""
+msgstr "הפעל"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2864,7 +2864,7 @@ msgstr "שותפים"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Plan"
-msgstr ""
+msgstr "תוכנית"
 
 #. module: website
 #: model:web.planner,tooltip_planner:website.planner_website
@@ -2876,7 +2876,7 @@ msgstr ""
 #. module: website
 #: model:ir.model,name:website.model_web_planner
 msgid "Planner"
-msgstr ""
+msgstr "מתכנן"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.theme_customize
@@ -3009,7 +3009,7 @@ msgstr "סגול"
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
 msgid "QWeb"
-msgstr ""
+msgstr "QWeb"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3300,7 +3300,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Square"
-msgstr ""
+msgstr "מרובע"
 
 #. module: website
 #. openerp-web
@@ -3490,7 +3490,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,help:website.field_website_published_mixin_website_url
 msgid "The full URL to access the document through the website."
-msgstr ""
+msgstr "כתובת האתר המלאה כדי לגשת למסמך דרך האתר."
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_url
@@ -3919,7 +3919,7 @@ msgstr "טופס פרסום תגובה על שותפים"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_path
 msgid "Website Path"
-msgstr ""
+msgstr "אתר נתיב"
 
 #. module: website
 #: model:crm.team,name:website.salesteam_website_sales
@@ -3989,7 +3989,7 @@ msgstr "אתרים לתרגום"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Welcome"
-msgstr ""
+msgstr "ברוכים הבאים"
 
 #. module: website
 #. openerp-web
@@ -4422,7 +4422,7 @@ msgstr "ir.attachment"
 #. module: website
 #: model:ir.model,name:website.model_ir_qweb
 msgid "ir.qweb"
-msgstr ""
+msgstr "ir.qweb"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_ui_view

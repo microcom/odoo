@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:17+0000\n"
-"PO-Revision-Date: 2016-07-26 09:22+0000\n"
-"Last-Translator: ilan kl <ilan@qaroads.co.il>\n"
+"PO-Revision-Date: 2019-08-21 15:45+0000\n"
+"Last-Translator: Amit Spilman <amit@laylinetech.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_partner_task_count
 msgid "# Tasks"
-msgstr ""
+msgstr "# משימות"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_no_of_days
@@ -32,7 +32,7 @@ msgstr "# ימים"
 #: model:ir.model.fields,field_description:project.field_project_task_history_cumulative_nbr_tasks
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_nbr
 msgid "# of Tasks"
-msgstr ""
+msgstr "# של משימות"
 
 #. module: project
 #: code:addons/project/project.py:248 code:addons/project/project.py:267
@@ -784,7 +784,7 @@ msgstr "חשבון ניהולי"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_line_ids
 msgid "Analytic Lines"
-msgstr ""
+msgstr "שורות אנליטית"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -892,7 +892,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_balance
 msgid "Balance"
-msgstr ""
+msgstr "מאזן"
 
 #. module: project
 #: model:project.task.type,name:project.project_stage_data_1
@@ -923,7 +923,7 @@ msgstr "חסומה"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_crossovered_budget_line
 msgid "Budget Lines"
-msgstr ""
+msgstr "שורות תקציב"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -993,7 +993,7 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,help:project.project_tags_action
 msgid "Click to add a new tag."
-msgstr ""
+msgstr "לחץ להוספת תגית חדשה."
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1254,12 +1254,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customization"
-msgstr ""
+msgstr "התאמה אישית"
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_projects
 msgid "Dashboard"
-msgstr ""
+msgstr "לוח בקרה"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_history_cumulative_date
@@ -1292,7 +1292,7 @@ msgstr "תאריך יעד"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_debit
 msgid "Debit"
-msgstr ""
+msgstr "חובה"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_defaults
@@ -1362,7 +1362,7 @@ msgstr ""
 #: code:addons/project/static/src/js/project.js:50
 #, python-format
 msgid "Discard"
-msgstr ""
+msgstr "בטל"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_display_name
@@ -1420,7 +1420,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Documentation"
-msgstr ""
+msgstr "תיעוד"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1444,7 +1444,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Don't hesitate to"
-msgstr ""
+msgstr "אל תהסס ל"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1573,7 +1573,7 @@ msgstr "תאריך תפוגה"
 msgid ""
 "Explanation text to help users using the star and priority mechanism on "
 "stages or issues that are in this stage."
-msgstr ""
+msgstr "הסבר טקסט שיעזור למשתמשים להשתמש במנגנון הכוכבים והעדיפות בשלבים או בבעיות שנמצאים בשלב זה."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
@@ -1636,13 +1636,13 @@ msgstr "עוקבים"
 #: model:ir.model.fields,field_description:project.field_project_project_message_channel_ids
 #: model:ir.model.fields,field_description:project.field_project_task_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "עוקבים (ערוצים)"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_message_partner_ids
 #: model:ir.model.fields,field_description:project.field_project_task_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "עוקבים (שותפים)"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1673,7 +1673,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
 msgid "Forecasts"
-msgstr ""
+msgstr "תחזיות"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_project_forecast
@@ -1854,7 +1854,7 @@ msgstr "אם מסומן אז הודעה חדשה דורשת התייחסותכם
 #: model:ir.model.fields,help:project.field_project_project_message_needaction
 #: model:ir.model.fields,help:project.field_project_task_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "אם סומן, הודעות חדשות דורשות את תשומת הלב שלך."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_active
@@ -1921,7 +1921,7 @@ msgstr "בתהליך"
 #: code:addons/project/static/src/js/web_planner_project.js:79
 #, python-format
 msgid "Incoming"
-msgstr ""
+msgstr "נכנס"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1952,7 +1952,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project_message_is_follower
 #: model:ir.model.fields,field_description:project.field_project_task_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "האם עוקב"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2053,7 +2053,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_history_kanban_state
 #: model:ir.model.fields,field_description:project.field_project_task_kanban_state
 msgid "Kanban State"
-msgstr ""
+msgstr "מצב קנבן "
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_legend_done
@@ -2085,7 +2085,7 @@ msgstr "תאריך הודעה אחרונה"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_write_date
 msgid "Last Modification Date"
-msgstr ""
+msgstr "תאריך שינוי אחרון"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings___last_update
@@ -2103,7 +2103,7 @@ msgstr "תאריך שינוי אחרון"
 #: model:ir.model.fields,field_description:project.field_project_task_date_last_stage_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 msgid "Last Stage Update"
-msgstr ""
+msgstr "עדכון השלב אחרון"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_write_uid
@@ -2213,7 +2213,7 @@ msgstr "חודש"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr ""
+msgstr "עוד <i class=\"fa fa-caret-down\"/>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2494,7 +2494,7 @@ msgstr "זמן מתוכנן"
 #. module: project
 #: model:ir.model,name:project.model_web_planner
 msgid "Planner"
-msgstr ""
+msgstr "מתכנן"
 
 #. module: project
 #: code:addons/project/project.py:895
@@ -2527,7 +2527,7 @@ msgstr "עדיפות"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_priority
 msgid "Priority Management Explanation"
-msgstr ""
+msgstr "ניהול סדרי עדיפויות"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_privacy_visibility
@@ -2773,7 +2773,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Reporting"
-msgstr ""
+msgstr "דוחות"
 
 #. module: project
 #. openerp-web
@@ -2828,7 +2828,7 @@ msgstr "חפש פרוייקט"
 #: code:addons/project/static/src/js/project.js:46
 #, python-format
 msgid "Select"
-msgstr ""
+msgstr "בחר"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2976,7 +2976,7 @@ msgstr "תאריך התחלה"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_account_type
 msgid "State"
-msgstr ""
+msgstr "מחוז"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_state
@@ -2988,12 +2988,12 @@ msgstr "סטטוס"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_subscription_ids
 msgid "Subscriptions"
-msgstr ""
+msgstr "מנויים"
 
 #. module: project
 #: sql_constraint:project.tags:0
 msgid "Tag name already exists !"
-msgstr ""
+msgstr "שם תגית כבר קיים !"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_tags_action
@@ -3187,7 +3187,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Test"
-msgstr ""
+msgstr "בדיקה"
 
 #. module: project
 #. openerp-web
@@ -3353,7 +3353,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project_use_timesheets
 #: model:ir.ui.view,arch_db:project.view_config_settings
 msgid "Timesheets"
-msgstr ""
+msgstr "גיליונות זמנים"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_project_issue_sheet
@@ -3449,7 +3449,7 @@ msgstr "הודעות שלא נקראו"
 #: model:ir.model.fields,field_description:project.field_project_project_message_unread_counter
 #: model:ir.model.fields,field_description:project.field_project_task_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "מונה הודעות שלא נקראו"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -3576,7 +3576,7 @@ msgstr "היסטוריית תקשורת מהאתר"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Welcome"
-msgstr ""
+msgstr "ברוכים הבאים"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3746,7 +3746,7 @@ msgstr "משימות"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "to describe<br/> your experience or to suggest improvements !"
-msgstr ""
+msgstr "לתאר <br/> הניסיון שלך או להציע שיפורים !"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_project_count

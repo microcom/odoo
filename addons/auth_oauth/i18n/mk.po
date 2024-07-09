@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Aleksandar Vangelovski <aleksandarv@hbee.eu>, 2016
+# Anica Milanova, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2016-09-23 09:14+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2017-11-27 14:33+0000\n"
+"Last-Translator: Anica Milanova\n"
 "Language-Team: Macedonian (http://www.transifex.com/odoo/odoo-9/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgid ""
 "                                    - Edit settings and set both Authorized Redirect URIs and Authorized JavaScript Origins to your hostname.<br/>\n"
 "                                    <br/>\n"
 "                                    Now copy paste the client_id here:"
-msgstr ""
+msgstr "<br/>\n- Креирај нов проект<br/>\n- Оди до Api Access<br/>\n- Креирај oauth client_id<br/>\n- Уреди ги поставките и постави Authorized Redirect URIs и Authorized JavaScript Origins на вашиот hostname.<br/>\n<br/>\nКопирајте го и ставете го client_id тука:"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:99
@@ -106,7 +107,7 @@ msgstr "Креирано на"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валута"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_property_payment_term_id
@@ -152,7 +153,7 @@ msgstr "Фактури"
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_issued_total
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_journal_item_count
 msgid "Journal Items"
-msgstr "Ставки на дневник"
+msgstr "Ставки на налог"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider___last_update
@@ -225,7 +226,7 @@ msgstr "Oauth Провајдер user_id"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_debit_limit
 msgid "Payable Limit"
-msgstr "Платежен лимит"
+msgstr "Лимит на обврски"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_name
@@ -259,7 +260,7 @@ msgstr "Фискалната позиција ќе ги определи дан�
 msgid ""
 "The partner has at least one unreconciled debit and credit since last time "
 "the invoices & payments matching was performed."
-msgstr ""
+msgstr "Партнерот има барем едно непорамнето задолжување и побарување од последното поврзување на фактурите со соодветните плаќања."
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_property_account_payable_id

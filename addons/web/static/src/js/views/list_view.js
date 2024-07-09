@@ -352,7 +352,7 @@ var ListView = View.extend( /** @lends instance.web.ListView# */ {
                     } else if (self.page > max_page_index) {
                         self.page = 0;
                     }
-                    self.reload_content();
+                    self.reload_content_when_ready();
                 }).find('.oe_list_pager_state')
                     .click(function (e) {
                         e.stopPropagation();
@@ -370,7 +370,7 @@ var ListView = View.extend( /** @lends instance.web.ListView# */ {
                                 var val = parseInt($select.val(), 10);
                                 self._limit = (isNaN(val) ? null : val);
                                 self.page = 0;
-                                self.reload_content();
+                                self.reload_content_when_ready();
                             }).blur(function() {
                                 $(this).trigger('change');
                             })
@@ -542,6 +542,12 @@ var ListView = View.extend( /** @lends instance.web.ListView# */ {
         });
         return reloaded.promise();
     }),
+    /**
+     * Proxy allowing override when reload_content can't be called directly
+     */
+    reload_content_when_ready: function() {
+        return this.reload_content.apply(this, arguments);
+    },
     reload: function () {
         return this.reload_content();
     },
@@ -1027,9 +1033,11 @@ ListView.List = Class.extend( /** @lends instance.web.ListView.List# */{
                         '[data-id=' + record.get('id') + ']');
                 }
 
-                var $newRow = $(self.render_record(record));
-                $newRow.find('.oe_list_record_selector input').prop('checked', !!$row.find('.oe_list_record_selector input').prop('checked'));
-                $row.replaceWith($newRow);
+                if ($row.length) {
+                    var $newRow = $(self.render_record(record));
+                    $newRow.find('.oe_list_record_selector input').prop('checked', !!$row.find('.oe_list_record_selector input').prop('checked'));
+                    $row.replaceWith($newRow);
+                }
             },
             'add': function (ev, records, record, index) {
                 var $new_row = $(self.render_record(record));

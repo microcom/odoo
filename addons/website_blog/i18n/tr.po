@@ -3,17 +3,17 @@
 # * website_blog
 # 
 # Translators:
-# AYHAN KIZILTAN <akiziltan76@hotmail.com>, 2016
+# Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2016
 # Cem Uygur <cemuygur.beb@gmail.com>, 2016
 # dhkabayel <dhkabayel@gmail.com>, 2016
-# thermodynamic thermodynamic <emirhanayar2004@gmail.com>, 2016
+# Thermo Dynamic <emirhanayar2004@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:12+0000\n"
-"PO-Revision-Date: 2016-09-02 14:43+0000\n"
-"Last-Translator: thermodynamic thermodynamic <emirhanayar2004@gmail.com>\n"
+"PO-Revision-Date: 2019-02-25 06:26+0000\n"
+"Last-Translator: Umur Akın <umura@projetgrup.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/odoo/odoo-9/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "&amp;times;"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_feed
 msgid "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
-msgstr ""
+msgstr "&lt;?xml versiyon=\"1.0\" kodlama=\"utf-8\"?&gt;"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -248,7 +248,7 @@ msgstr "Arşivler"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Atom Feed"
-msgstr ""
+msgstr "Atom Besleme"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_author_id
@@ -380,7 +380,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "Choose an image from the library."
-msgstr ""
+msgstr "Kütüphaneden bir resim seçiniz"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:220
@@ -419,7 +419,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
 msgid "Click to create a new blog post."
-msgstr ""
+msgstr "Yeni bir blog yazısı oluşturmak için tıklayın."
 
 #. module: website_blog
 #. openerp-web
@@ -574,7 +574,7 @@ msgstr "ID"
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
 msgid "Ideas behind the Odoo communication tools."
-msgstr ""
+msgstr "Odoo iletişim aracının arkasındaki fikirler."
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_unread
@@ -848,7 +848,7 @@ msgstr "Sıralama"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 msgid "Read Next <span class=\"fa fa-long-arrow-right\"/>"
-msgstr ""
+msgstr "Devamını Oku <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -922,7 +922,7 @@ msgstr "Öğretici başlatın"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:90
 #, python-format
 msgid "Start writing here..."
-msgstr ""
+msgstr "Buraya yazmaya başlayın ..."
 
 #. module: website_blog
 #. openerp-web
@@ -1183,7 +1183,7 @@ msgstr "yorumlamak"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "view"
-msgstr ""
+msgstr "görünüm"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short

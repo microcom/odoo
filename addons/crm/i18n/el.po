@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:15+0000\n"
-"PO-Revision-Date: 2016-09-26 14:42+0000\n"
+"PO-Revision-Date: 2017-11-20 00:38+0000\n"
 "Last-Translator: Kostas Goutoudis <goutoudis@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/odoo/odoo-9/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -783,7 +783,7 @@ msgstr "Επισυνάψετε μια φόρμα προσόντων σε κάθ�
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_author_id
 msgid "Author"
-msgstr "Δημιουργός"
+msgstr "Συντάκτης"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -1704,7 +1704,7 @@ msgstr "Αποκτήστε υψηλής ποιότητας εικόνα από �
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Gamification"
-msgstr ""
+msgstr "Παιχνιδοποίηση"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
@@ -2281,7 +2281,7 @@ msgstr "Ανώτατο όριο Ομάδας Επαφών"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr "Μέτρια"
+msgstr "Μέσο"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:1056
@@ -2963,7 +2963,7 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
-msgstr ""
+msgstr "Πολιτική για τη αποστολή μηνύματος στο έγγραφο χρησιμοποιώντας το mailgateway.\n- όλοι: ο καθένας μπορεί να αποστείλει\n- συνεργάτες: μόνο οι επικυρωμένοι συνεργάτες \n- ακόλουθοι: μόνο οι ακόλουθοι του σχετικού εγγράφου ή μέλη των παρακάτω καναλιών\n"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3418,7 +3418,7 @@ msgid ""
 "Systematic organization is what makes the difference\n"
 "                        between good and great salespeople! Setup a pipeline\n"
 "                        that is in line with your sales cycle."
-msgstr ""
+msgstr "Η συστηματική οργάνωση είναι αυτή που κάνει τη διαφορά μεταξύ καλών και μεγάλων πωλητών! Ρυθμίστε την Ροή Πληροφοριών έτσι ώστε να είναι σύμφωνη με τον κύκλο των πωλήσεών σας."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -3745,7 +3745,7 @@ msgstr "Χρησιμοποιήστε τις συστάσεις αν χρειάζ
 msgid ""
 "Use leads if you need a qualification step before creating an opportunity or"
 " a customer"
-msgstr ""
+msgstr "Χρησιμοποιήστε τις συστάσεις εάν χρειάζεστε ένα βήμα προκρίσεων πριν δημιουργήσετε μια ευκαιρία ή έναν πελάτη"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lost_reason_action
@@ -3922,7 +3922,7 @@ msgstr "Όταν στέλνετε mails, η προεπιλεγμένη διεύ�
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Win / Loss Ratio"
-msgstr ""
+msgstr "Αναλογία Κερδήθηκαν / Χάθηκαν"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_line_wizard_id
@@ -3949,7 +3949,7 @@ msgstr "Κερδισμένη ανά Χώρα"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_users_target_sales_won
 msgid "Won in Opportunities Target"
-msgstr ""
+msgstr "Στόχος Κερδισμένων Ευκαιριών"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_resource_calendar_id
@@ -3975,7 +3975,7 @@ msgstr ""
 #: code:addons/crm/base_partner_merge.py:309
 #, python-format
 msgid "You cannot merge a contact with one of his parent."
-msgstr ""
+msgstr "Δεν μπορείτε να συγχωνεύσετε μία επαφή με μία της μητρικής του."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4042,12 +4042,12 @@ msgstr "Οι Προσδοκίες σας"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your KPIs"
-msgstr ""
+msgstr "Οι Κύριοι Δείκτες Απόδοσής σου"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your LinkedIn or social media pages"
-msgstr ""
+msgstr "Οι σελίδες σας στο LinkedIn και στα κοινωνικά δίκτυα"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_opportunities_tree_view
@@ -4055,7 +4055,7 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.menu_crm_opportunities
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your Pipeline"
-msgstr ""
+msgstr "Οι Ροές σας"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

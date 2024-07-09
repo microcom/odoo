@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
-"PO-Revision-Date: 2016-10-29 11:23+0000\n"
+"PO-Revision-Date: 2017-11-17 18:54+0000\n"
 "Last-Translator: Kostas Goutoudis <goutoudis@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/odoo/odoo-9/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr ",\nτο #1"
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid ", author:"
-msgstr ", συγγραφέας:"
+msgstr ", συντάκτης:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -175,7 +175,7 @@ msgid ""
 "                        just one person.</b> If you try to write with a wide general\n"
 "                        audience in mind, your story will ring false and be bland.\n"
 "                        No one will be interested. Write for one person. If it’s genuine for the one, it’s genuine for the rest."
-msgstr ""
+msgstr "<b>Οι σπουδαίες ιστορίες είναι για τον καθένα ακόμη και όταν γράφονται\n μόνο για ένα πρόσωπο.</b>Αν προσπαθήσετε να γράψετε για ένα ευρύ και γενικό κοινό, η ιστορία σας θα φαίνεται ψευδής και μη ενδιαφέρουσα.\nΚανένας δεν θα ενδιαφερθεί.Γράψτε για ένα μόνο πρόσωπο. Εάν είναι αυθεντική για αυτό το πρόσωπο, τότε θα είναι αυθεντική και για τους υπόλοιπους."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -228,7 +228,7 @@ msgid ""
 "<i>\n"
 "                        The whole process may take a few hours, some discussions with your colleagues and\n"
 "                    several cups of coffee to go through. But don't worry, you can return to this tool at any time.</i>"
-msgstr ""
+msgstr "<i>\nΟλόκληρη η διαδικασία θα πάρει αρκετές ώρες, μερικές συζητήσεις με τους συνεργάτες σας και\nαρκετά φλυτζάνια καφέ για να ολοκληρωθεί. Αλλά μην ανησυχείτε μπορείτε να επιστρέψετε σε αυτό το εργαλείο οποιαδήποτε στιγμή</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -236,7 +236,7 @@ msgid ""
 "<i>\n"
 "                        Whether you're a beginner or a pro, we have everything you need to plan, create,\n"
 "                    publish and grow your site, blog or online store.</i>"
-msgstr ""
+msgstr "<i>\nΕίτε είστε αρχάριος είτε επαγγελματίας, έχετε ότι χρειάζεστε για να σχεδιάσετε,να δημιουργήσετε\nνα δημοσιεύσετε και να αναπτύξτε την ιστοσελίδα σας, το blog και το διαδικτυακό σας κατάστημα.</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -250,17 +250,17 @@ msgstr ""
 msgid ""
 "<i>Congratulations on taking the leap and deciding to build your own "
 "website!</i>"
-msgstr ""
+msgstr "<i>Συγχαρητήρια που πήρατε την πρωτοβουλία και  αποφασίσατε να δημιουργήσετε τον δικό σας ιστότοπο!</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<i>Instant setup, satisfied or reimbursed.</i>"
-msgstr ""
+msgstr "<i>IΆμεση εγκατάσταση, ικανοποίηση ή επιστροφή.</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<i>We wish you a fun time!</i>"
-msgstr ""
+msgstr "<i>Σας ευχόμαστε ένα διασκεδαστικό χρόνο!</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
@@ -277,7 +277,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.s_quotes_slider
 #: model:ir.ui.view,arch_db:website.s_references
 msgid "<small>Author of this quote</small>"
-msgstr ""
+msgstr "<small>Συντάκτης αυτού του αποφθέγματος</small>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
@@ -289,7 +289,7 @@ msgstr "<small>Κώστας Γουτούδης, Διευθύνων Σύμβου�
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<span class=\"fa fa-arrow-circle-o-down\"/> Install now"
-msgstr ""
+msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Εγκατάσταση τώρα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -306,7 +306,7 @@ msgstr ""
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                                <strong>Tips for a good domain:</strong>"
-msgstr ""
+msgstr "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n<strong>Συμβουλές για έναν καλό τομέα:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -318,12 +318,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<span class=\"fa fa-thumbs-o-down\"/> <strong> Bad practices</strong>"
-msgstr ""
+msgstr "<span class=\"fa fa-thumbs-o-down\"/> <strong> Κακές πρακτικές</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<span class=\"fa fa-thumbs-o-up\"/> <strong> Good practices</strong>"
-msgstr ""
+msgstr "<span class=\"fa fa-thumbs-o-up\"/> <strong> Καλές πρακτικές</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
@@ -364,7 +364,7 @@ msgid ""
 "                                        <span class=\"fa fa-cogs\"/>\n"
 "                                        <strong>Machine translation</strong><br/>Free, but quality may vary\n"
 "                                    </span>"
-msgstr ""
+msgstr "<span class=\"panel-title\">\n<span class=\"fa fa-cogs\"/>\n<strong>Μηχανική μετάφραση</strong><br/>Δωρεάν, αλλά η ποιότητα μπορεί να διαφέρει\n</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -373,21 +373,21 @@ msgid ""
 "                                        <span class=\"fa fa-user\"/>\n"
 "                                        <strong>Human translation</strong><br/>Pay for professionnal quality\n"
 "                                    </span>"
-msgstr ""
+msgstr "<span class=\"panel-title\">\n<span class=\"fa fa-user\"/>\n<strong>Ανθρώπινη μετάφραση</strong><br/>Πληρώστε για επαγγελματική ποιότητα\n</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "<span class=\"panel-title\"><span class=\"fa fa-code\"/><strong> 2. "
 "Customize its appearance</strong></span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-code\"/><strong> 2. Προσαρμόστε την εμφάνισή του</strong></span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "<span class=\"panel-title\"><span class=\"fa fa-magic\"/><strong> 1. Choose "
 "your theme</strong></span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-magic\"/><strong> 1. Επιλέξτε το θέμα σας</strong></span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout
@@ -418,17 +418,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
-msgstr ""
+msgstr "<b style=\"font-size: 60px\">125</b><small>.00</small><span>&euro;</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
-msgstr ""
+msgstr "<b style=\"font-size: 60px\">35</b><small>.00</small><span>&euro;</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
-msgstr ""
+msgstr "<b style=\"font-size: 60px\">65</b><small>.00</small><span>&euro;</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -441,7 +441,7 @@ msgid ""
 "<strong>... and your location too!</strong><br/>\n"
 "                                Millions of people use Google Maps everyday. Whether you are a restaurant\n"
 "                                or a huge business, you have no excuse not to register your location in"
-msgstr ""
+msgstr "<strong>... και η τοποθεσία σας επίσης!</strong><br/>\n                               Εκατομμύρια άνθρωποι χρησιμοποιούν τους Χάρτες της Google κάθε μέρα. Είτε έχετε ένα εστιατόριο\n                                είτε μια τεράστια επιχείριση, δεν έχετε καμία δικαιολογία για να μην εγγράψετε την τοποθεσία σας "
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -493,7 +493,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
 msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
-msgstr ""
+msgstr "<strong>50,000+ εταιρείες χρησιμοποιούν το Odoo για να αναπτύξουν την επιχείρησή τους.</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -544,7 +544,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Blogs</strong>"
-msgstr ""
+msgstr "<strong>Ιστολόγια</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
@@ -575,12 +575,12 @@ msgstr "<strong>Επικοινωνήστε μαζί μας τώρα:</strong><br
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Create an online Q&amp;A</strong>"
-msgstr ""
+msgstr "<strong>Δημιουργήστε ένα online Ε&amp;Α</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Discuss live</strong>"
-msgstr ""
+msgstr "<strong>Ζωντανή συζήτηση</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -589,7 +589,7 @@ msgid ""
 "                                Below your main banner or call-to-action, it's a good practice to put\n"
 "                                social proofs about your products or services; customer quotes, videos,\n"
 "                                photos of your products in actions, twitter quotes, etc."
-msgstr ""
+msgstr "<strong>Δείξτε ζωντανές αποδείξεις</strong><br/>\nΚάτω από το βασικό banner ή την \"πρόσκληση για δράση\", είναι καλή πρακτική να χρησιμοποιείτε\nαποδείξεις για τα προϊόντα ή τις υπηρεσίες σας, όπως σχόλια πελατών, βίντεο,\nφωτογραφίες των προϊόντων όταν αυτά χρησιμοποιούνται, σχόλια στο twitter κλπ."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -639,14 +639,14 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
 msgid "<strong>Error message:</strong>"
-msgstr ""
+msgstr "<strong>Μήνυμα σφάλματος:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "<strong>Find 3 websites that you like</strong> and write down what you like "
 "about them."
-msgstr ""
+msgstr "<strong>Βρείτε 3 ιστοτόπους που σας αρέσουν</strong>και σημειώστε τι σας αρέσει σχετικά με αυτούς."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -674,7 +674,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Jobs</strong>"
-msgstr ""
+msgstr "<strong>Θέσεις εργασίας</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -688,7 +688,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Now try to write down you footer structure:</strong>"
-msgstr ""
+msgstr "<strong>Τώρα προσπαθήστε να γράψετε την δομή του υποσέλιδου σας:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -701,7 +701,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Organize physical events</strong>"
-msgstr ""
+msgstr "<strong>Οργανώστε φυσικές εκδηλώσεις</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -726,7 +726,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>The big launch</strong><br/>"
-msgstr ""
+msgstr "<strong>Η μεγάλη έναρξη</strong><br/>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -747,7 +747,7 @@ msgstr "<strong>Χρησιμοποιήστε τις φόρμες επικοιν�
 msgid ""
 "<strong>With that in mind, try to define the structure of your main "
 "menu:</strong>"
-msgstr ""
+msgstr "<strong>Με αυτό κατά νου, προσπαθήστε να ορίσετε τη δομή του κύριου μενού:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -757,7 +757,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Your website objectives</strong> by priority:"
-msgstr ""
+msgstr "<strong>Οι στόχοι του ιστότοπού σας</strong> κατά προτεραιότητα:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -767,7 +767,7 @@ msgstr "<strong>Ηλεκτρονικό Εμπόριο</strong>"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "@odoo"
-msgstr ""
+msgstr "@odoo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -825,12 +825,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_features
 msgid "A small explanation of this great<br/>feature, in clear words."
-msgstr ""
+msgstr "Μια μικρή εξήγηση για αυτό το σπουδαίο<br/>χαρακτηριστικό, με σαφή λόγια."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "A/B Testing"
-msgstr ""
+msgstr "A/B Testing"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_module_website_version
@@ -858,12 +858,12 @@ msgstr "Σχετικά με εμάς"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Account &amp; Sales management"
-msgstr ""
+msgstr "Λογαριασμοί &amp; Διαχείριση Πωλήσεων"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_cdn_activated
 msgid "Activate CDN for assets"
-msgstr ""
+msgstr "Ενεργοποίηση CDN για τα σταθερά αρχεία"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
@@ -912,7 +912,7 @@ msgstr "Προσθέστε ένα φοβερό σλόγκαν"
 #: model:ir.ui.view,arch_db:website.snippet_options
 #, python-format
 msgid "Add images"
-msgstr ""
+msgstr "Προσθήκη εικόνων"
 
 #. module: website
 #. openerp-web
@@ -952,7 +952,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Aim for a .com and/or your country extension"
-msgstr ""
+msgstr "Στοχεύστε για .com ή/και την επέκταση της χώρας σας (π.χ. .gr)."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -1037,7 +1037,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Attract new leads"
-msgstr ""
+msgstr "Προσέλκυση νέων συστάσεων"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_published
@@ -1047,7 +1047,7 @@ msgstr "Διαθέσιμο στον ιστότοπο"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Avoid special characters"
-msgstr ""
+msgstr "Αποφύγετε τους ειδικούς χαρακτήρες"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1077,7 +1077,7 @@ msgstr "Εικόνα Banner Odoo"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Basic sales &amp; marketing for up to 2 users"
-msgstr ""
+msgstr "Βασικές πωλήσεις &amp; μάρκετινγκ για μέχρι 2 χρήστες"
 
 #. module: website
 #. openerp-web
@@ -1089,7 +1089,7 @@ msgstr "Να προσέχεις !"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Be mobile"
-msgstr ""
+msgstr "Γίνε κινητό"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1118,7 +1118,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Big"
-msgstr ""
+msgstr "Μεγάλο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1150,7 +1150,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Build awareness and credibility"
-msgstr ""
+msgstr "Δημιουργήστε αναγνωρισιμότητα και αξιοπιστία"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1161,13 +1161,13 @@ msgstr "Επιχειρηματικός Τύπος"
 #: model:ir.model.fields,field_description:website.field_website_cdn_url
 #: model:ir.model.fields,field_description:website.field_website_config_settings_cdn_url
 msgid "CDN Base URL"
-msgstr ""
+msgstr "CDN Βασικό URL"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_cdn_filters
 #: model:ir.model.fields,field_description:website.field_website_config_settings_cdn_filters
 msgid "CDN Filters"
-msgstr ""
+msgstr "CDN Φίλτρα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1210,7 +1210,7 @@ msgstr "Έλεγχος προεπισκόπησης για κινητό"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Check its availability"
-msgstr ""
+msgstr "Έλεγχος Διαθεσιμότητας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image_floating
@@ -1220,7 +1220,7 @@ msgstr "Ελέγξτε τώρα και ανακαλύψτε περισσότερ
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Check your references before deciding to work with you"
-msgstr ""
+msgstr "Να ελέγξει τις συστάσεις για σας πριν αποφασίσει να συνεργαστούν μαζί σας"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_child_id
@@ -1309,7 +1309,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Communicate"
-msgstr ""
+msgstr "Επικοινωνώ"
 
 #. module: website
 #: model:ir.model,name:website.model_res_company
@@ -1329,12 +1329,12 @@ msgstr "Επωνυμία Εταιρίας"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Complete CRM for any size team"
-msgstr ""
+msgstr "Πλήρης CRM για ομάδα οποιαδήποτε μεγέθους"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_compress_html
 msgid "Compress HTML"
-msgstr ""
+msgstr "Συμπίεση HTML"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_compress_html
@@ -1371,7 +1371,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Congratulations, you're done !"
-msgstr ""
+msgstr "Συγχαρητήρια, έχετε τελειώσει !"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.footer_default
@@ -1437,7 +1437,7 @@ msgstr "Συνέχεια"
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
 msgid "Copyright &amp;copy;"
-msgstr ""
+msgstr "Πνευματική ιδιοκτησία &amp;copy;"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.page_404
@@ -1447,7 +1447,7 @@ msgstr "Δημιουργία Σελίδας"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Create a community"
-msgstr ""
+msgstr "Δημιουργήστε μια κοινότητα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1494,7 +1494,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "Customize Theme"
-msgstr ""
+msgstr "Προσαρμογή Θέματος"
 
 #. module: website
 #. openerp-web
@@ -1542,7 +1542,7 @@ msgstr "Διαγραφή Πλαισίων"
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
 msgid "Delete Page"
-msgstr ""
+msgstr "Διαγραφή Σελίδας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
@@ -1590,7 +1590,7 @@ msgstr "Σχεδίαση"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Disable autoplay"
-msgstr ""
+msgstr "Απενεργοποίηση αυτόματης αναπαραγωγής"
 
 #. module: website
 #. openerp-web
@@ -1650,7 +1650,7 @@ msgstr "Μην διστάσετε να"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Download the technical documentation of a product"
-msgstr ""
+msgstr "Κατεβάστε την τεχνική τεκμηρίωση ενός προϊόντος"
 
 #. module: website
 #. openerp-web
@@ -1700,7 +1700,7 @@ msgstr "Αντιγράψτε πλαίσια για να προσθέσετε π�
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Easy to remember and spell"
-msgstr ""
+msgstr "Εύκολο για απομνημόνευση και συλλαβισμό"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.publish_management
@@ -1744,7 +1744,7 @@ msgstr "Επεξεργασία συγκεκριμένης σελίδας"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
-msgstr ""
+msgstr "Υποστήριξη email"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1857,12 +1857,12 @@ msgstr "Χαρακτηριστικό 2"
 msgid ""
 "Finally don't try to make all your content accessible from the main menu or the footer.\n"
 "                            Indeed, a page can also be accessible through a direct link or button, from any other page of your website."
-msgstr ""
+msgstr "Τέλος μην προσπαθήσετε να κάνετε προσβάσιμο όλο το περιεχόμενο από το κυρίως μενού ή το υποσέλιδο.\nΌντως, η σελίδα μπορεί να είναι προσβάσιμη μέσω ενός άμεσου συνδέσμου ή κουμπιού και από οποιαδήποτε άλλη σελίδα του ιστοτόπου σας."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Find Inspiration"
-msgstr ""
+msgstr "Βρείτε την Έμπνευση"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1892,12 +1892,12 @@ msgstr "Πεδίο με Λουλούδια "
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Folded list"
-msgstr ""
+msgstr "Αναδιπλωμένη λίστα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Fonts"
-msgstr ""
+msgstr "Γραμματοσειρές"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1920,7 +1920,7 @@ msgstr ""
 msgid ""
 "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr ""
+msgstr "Για την Ομάδα Odoo,<br/>\n                            Fabien Pinckaers, Ιδρυτής"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_module_website_form_editor
@@ -1944,7 +1944,7 @@ msgstr ""
 msgid ""
 "From the main container, you can change the background to highlight "
 "features."
-msgstr "Απο το κύριο δοχείο, μπορείτε να αλλάξετε το σκηνικό για δώσετε έμφαση στα χαρακτηριστικά."
+msgstr "Από τον κύριο περιέκτη, μπορείτε να αλλάξετε το φόντο για να δώσετε έμφαση στα χαρακτηριστικά."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1954,17 +1954,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules"
-msgstr ""
+msgstr "Αποκτήστε πρόσβαση σε όλα τα αρθρώματα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules and features"
-msgstr ""
+msgstr "Αποκτήστε πρόσβαση σε όλα τα αρθρώματα και τα χαρακτηριστικά"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Get an understanding of your methodology"
-msgstr ""
+msgstr "Γνωρίστε τη μεθοδολογία σας"
 
 #. module: website
 #. openerp-web
@@ -2013,7 +2013,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Google Business"
-msgstr ""
+msgstr "Google Business"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2054,7 +2054,7 @@ msgstr "Ομαδοποίηση Ανά"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Grow"
-msgstr ""
+msgstr "Ανάπτυξη"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -2122,7 +2122,7 @@ msgstr "Αρχική σελίδα 0.0.0.0"
 #: code:addons/website/static/src/xml/website.xml:135
 #, python-format
 msgid "I'm sure, I want to delete this page definitively"
-msgstr ""
+msgstr "Είμαι βέβαιος/η, θέλω να γίνει οριστική διαγραφή αυτής της σελίδας"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_id
@@ -2219,7 +2219,7 @@ msgstr "Σε αυτή την λειτουργία μπορείτε να μετα
 #: code:addons/website/static/src/xml/website.ace.xml:10
 #, python-format
 msgid "Include Asset Bundles"
-msgstr ""
+msgstr "Περιλαμβάνει τα Σταθερά Πακέτα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -2327,7 +2327,7 @@ msgstr "Γλώσσα"
 #: code:addons/website/static/src/xml/website.seo.xml:39
 #, python-format
 msgid "Language:"
-msgstr ""
+msgstr "Γλώσσα:"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_language_ids
@@ -2399,7 +2399,7 @@ msgstr "Ας δούμε πώς εμφανίζεται η αρχική σελίδ
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Limited customization"
-msgstr ""
+msgstr "Περιορισμένη προσαρμογή"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_social_linkedin
@@ -2457,7 +2457,7 @@ msgstr "Μήπως ψάχνετε για μια από αυτές τις δημ�
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Medium"
-msgstr "Μέτρια"
+msgstr "Μέσο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2527,27 +2527,27 @@ msgstr "Βουνά"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Move to first"
-msgstr ""
+msgstr "Μεταφορά σε πρώτο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Move to last"
-msgstr ""
+msgstr "Μεταφορά σε τελευταίο "
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Move to next"
-msgstr ""
+msgstr "Μεταφορά σε επόμενο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Move to previous"
-msgstr ""
+msgstr "Μεταφορά σε προηγούμενο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout
 msgid "My Website"
-msgstr ""
+msgstr "Ο ιστότοπός μου"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -2597,7 +2597,7 @@ msgstr "Επόμενο"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "No customization"
-msgstr ""
+msgstr "Χωρίς προσαρμογή"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2636,27 +2636,27 @@ msgstr "Odoo"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 1 for three columns"
-msgstr ""
+msgstr "Odoo - Παράδειγμα 1 για 3 στήλες"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 2 for three columns"
-msgstr ""
+msgstr "Odoo - Παράδειγμα 2 για 3 στήλες"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 3 for three columns"
-msgstr ""
+msgstr "Odoo - Παράδειγμα 3 για 3 στήλες"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
 msgid "Odoo CMS - a big picture"
-msgstr ""
+msgstr "Odoo CMS - μια μεγάλη εικόνα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
 msgid "Odoo CMS- Sample image floating"
-msgstr ""
+msgstr "Odoo CMS - Δείγμα πλωτής εικόνας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image_floating
@@ -2721,7 +2721,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Off"
-msgstr ""
+msgstr "Κλειστό"
 
 #. module: website
 #. openerp-web
@@ -2735,7 +2735,7 @@ msgstr "Ok"
 #: code:addons/website/static/src/xml/website.backend.xml:5
 #, python-format
 msgid "On Website"
-msgstr ""
+msgstr "Στον Ιστότοπο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2867,14 +2867,14 @@ msgstr "Συνεργάτες"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Plan"
-msgstr ""
+msgstr "Πλάνο"
 
 #. module: website
 #: model:web.planner,tooltip_planner:website.planner_website
 msgid ""
 "Plan your website strategy, design your pages, sell your products and grow "
 "your online business!"
-msgstr ""
+msgstr "Σχεδιάστε την στρατηγική του ιστότοπου σας, σχεδιάστε τις σελίδες σας, πουλήστε τα προϊόντα σας και αναπτύξτε την διαδικτυακή σας επιχείρηση! "
 
 #. module: website
 #: model:ir.model,name:website.model_web_planner
@@ -2884,14 +2884,14 @@ msgstr "Σχεδιασμός"
 #. module: website
 #: model:ir.ui.view,arch_db:website.theme_customize
 msgid "Please install a theme in order to customize your website."
-msgstr ""
+msgstr "Παρακαλώ εγκαταστήστε ένα θέμα για να προσαρμόσετε την ιστοσελίδα σας."
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.theme.js:293
 #, python-format
 msgid "Please install or update node-less"
-msgstr ""
+msgstr "Παρακαλούμε εγκαταστήστε ή ενημερώστε το node-less"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2904,7 +2904,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.s_faq
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Point of Sale Questions <small>v7</small>"
-msgstr ""
+msgstr "Ερωτήσεις Εντατικής Λιανικής <small>v7</small>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
@@ -2927,7 +2927,7 @@ msgstr "Προηγούμενο"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Product pricing and promotional offers,"
-msgstr ""
+msgstr "Τιμές των προϊόντων και προσφορές,"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2969,7 +2969,7 @@ msgstr "Προώθηση της σελίδας στο διαδίκτυο"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Promote your catalog of services"
-msgstr ""
+msgstr "Προώθηση του καταλόγου των υπηρεσιών σας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3027,7 +3027,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Ready For Launch!"
-msgstr ""
+msgstr "Ετοιμότητα για την Έναρξη!"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3072,7 +3072,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
 msgid "Rename Page"
-msgstr ""
+msgstr "Μετονομασία σελίδας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3139,7 +3139,7 @@ msgstr "Κυλήστε προς τα κάτω για να ελέγξετε τη�
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "Search Menus"
-msgstr ""
+msgstr "Αναζήτηση Μενού"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_search_box
@@ -3166,7 +3166,7 @@ msgstr "Δείτε και αγοράστε τα προϊόντα σας"
 #: code:addons/website/static/src/xml/website.contentMenu.xml:27
 #, python-format
 msgid "Select a Menu"
-msgstr ""
+msgstr "Επιλογή μενού"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -3178,7 +3178,7 @@ msgstr "Επιλέξτε και διαγράψτε πλαίσια για να κ
 #: code:addons/website/static/src/js/website.tour.banner.js:52
 #, python-format
 msgid "Select the parent container to get the global options of the banner."
-msgstr "Επιλέξτε το γονικό δοχείο για να πάρει τις καθολικές επιλογές του διαφημιστικού πλαισίου."
+msgstr "Επιλέξτε τον γονικό περιέκτη για να πάρει τις καθολικές επιλογές του διαφημιστικού πλαισίου."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3193,7 +3193,7 @@ msgstr "Πουλήστε online. Εύκολα."
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Sell more online"
-msgstr ""
+msgstr "Πουλήστε περισσότερα online"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.template_partner_comment
@@ -3228,7 +3228,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Shadows"
-msgstr ""
+msgstr "Σκιές"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_share
@@ -3238,7 +3238,7 @@ msgstr "Κοινοποίηση"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Share experience on similar projects"
-msgstr ""
+msgstr "Μοιραστείτε την εμπειρία σε παρόμοια έργα"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view_customize_show
@@ -3248,7 +3248,7 @@ msgstr "Εμφάνιση ως Προαιρετικά Κληρονομημένο"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
-msgstr ""
+msgstr "Απλό και εμφανής"
 
 #. module: website
 #. openerp-web
@@ -3260,7 +3260,7 @@ msgstr "Προσπέρασε το"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Slideshow"
-msgstr ""
+msgstr "Παρουσίαση διαφανειών"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3293,7 +3293,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Special effects and animations"
-msgstr ""
+msgstr "Ειδικά εφέ και κινούμενα γραφικά"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -3303,7 +3303,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Square"
-msgstr ""
+msgstr "Τετράγωνο"
 
 #. module: website
 #. openerp-web
@@ -3390,7 +3390,7 @@ msgstr "Πείτε τα χαρακτηριστικά που ο επισκέπτ�
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_features
 msgid "Tell what's the value for the<br/>customer for this feature."
-msgstr ""
+msgstr "Ενημερώστε για το ποια είναι η αξία για τον πελάτη για αυτό το χαρακτηριστικό."
 
 #. module: website
 #: code:addons/website/models/website.py:296
@@ -3526,7 +3526,7 @@ msgstr "Τα επιλεγμένα πρότυπα θα επανέλθουν στ�
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "The shorter the better"
-msgstr ""
+msgstr "Όσο μικρότερο τόσο καλύτερο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3547,12 +3547,12 @@ msgstr "Η ιστοσελίδα αντιμετώπισε ένα σφάλμα."
 #: code:addons/website/static/src/js/website.theme.js:297
 #, python-format
 msgid "Theme Error"
-msgstr ""
+msgstr "Σφάλμα Θέματος"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Theme Selection"
-msgstr ""
+msgstr "Επιλογή Θέματος"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3609,7 +3609,7 @@ msgstr "Αυτή η εκμάθηση θα σας βοηθήσει να δημι�
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Thumbnails"
-msgstr ""
+msgstr "Μικρογραφίες"
 
 #. module: website
 #. openerp-web
@@ -3641,7 +3641,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "To learn more, take a look at their"
-msgstr ""
+msgstr "Για να μάθετε περισσότερα, ρίξτε μια ματιά στο δικό τους"
 
 #. module: website
 #. openerp-web
@@ -3724,17 +3724,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Ultimate package"
-msgstr ""
+msgstr "Το Απόλυτο πακέτο"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Unlimited CRM power and support"
-msgstr ""
+msgstr "Απεριόριστη δύναμη και υποστήριξη CRM"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Unlimited customization"
-msgstr ""
+msgstr "Απεριόριστη προσαρμογή"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3757,7 +3757,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.gallery.xml:31
 #, python-format
 msgid "Upload successful."
-msgstr ""
+msgstr "Επιτυχής μεταφόρτωση."
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_url
@@ -3772,7 +3772,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_cdn_activated
 msgid "Use a Content Delivery Network (CDN)"
-msgstr ""
+msgstr "Χρήση ενός Δικτύου Παράδοσης Περιεχομένου (Content Delivery Network - CDN)"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3784,7 +3784,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Use the <i>Customize</i> menu to change the look of your theme:"
-msgstr ""
+msgstr "Χρησιμοποιήστε το μενού <i>Προσαρμογή</i> για να αλλάξετε την εμφάνιση του θέματος:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3798,7 +3798,7 @@ msgstr ""
 msgid ""
 "User-agent: *\n"
 "Sitemap:"
-msgstr ""
+msgstr "User-agent: *\nSitemap:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3832,7 +3832,7 @@ msgid ""
 " to your site. They could want to learn something, improve their life, grow "
 "their business, find out more about you, etc. What great content can you "
 "offer your visitors? Why should they stay on your website?"
-msgstr ""
+msgstr "Οι επισκέπτες μπορεί να μην ενδιαφέρονται για τα προϊόντα ή τις υπηρεσίες σας, όταν επισκέπτονται τον ιστότοπο σας. Μπορεί να επιθυμούν να μάθουν κάτι, να βελτιώσουν τη ζωή τους, να αναπτύξουν τις επιχειρήσεις τους, να μάθουν περισσότερα για σας κλπ. Τι σημαντικό περιεχόμενο μπορείτε να προσφέρετε στους επισκέπτες σας; Γιατί θα πρέπει οι επισκέπτες να παραμείνουν στον ιστότοπο σας;"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.aboutus
@@ -3860,7 +3860,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "We hope this planner helped you to create your website."
-msgstr ""
+msgstr "Ελπίζουμε αυτός ο οδηγός σχεδιασμού να σας βοήθησε στη δημιουργία του ιστότοπου σας."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.contactus
@@ -3880,7 +3880,7 @@ msgstr "Ιστότοπος"
 #. module: website
 #: model:ir.ui.menu,name:website.menu_website_configuration
 msgid "Website Admin"
-msgstr ""
+msgstr "Διαχείριση Ιστότοπου"
 
 #. module: website
 #: model:ir.actions.act_window,name:website.action_module_website
@@ -3890,7 +3890,7 @@ msgstr "Εφαρμογές ιστοτόπου"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_domain
 msgid "Website Domain"
-msgstr ""
+msgstr "Τομέας Ιστότοπου"
 
 #. module: website
 #: model:ir.actions.act_url,name:website.action_website_homepage
@@ -3938,7 +3938,7 @@ msgstr "Ρυθμίσεις ιστοτόπου"
 #. module: website
 #: model:ir.actions.act_window,name:website.action_module_theme
 msgid "Website Theme"
-msgstr ""
+msgstr "Θέμα Ιστότοπου"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_url
@@ -4016,7 +4016,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "What may <strong>interest your visitors?</strong>"
-msgstr ""
+msgstr "Τι μπορεί να <strong>ενδιαφέρει τους επισκέπτες σας;</strong>"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view_page
@@ -4212,12 +4212,12 @@ msgstr "Ο Τίτλος του Banner"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Domain Name"
-msgstr ""
+msgstr "Το Όνομα του Τομέα σας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Footer"
-msgstr ""
+msgstr "Το Υποσέλιδό σας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4227,12 +4227,12 @@ msgstr "Η Αρχικής σας σελίδα"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Main Menu"
-msgstr ""
+msgstr "Το Κεντρικό Μενού σας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Objectives"
-msgstr ""
+msgstr "Οι Στόχοι σας"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_title
@@ -4313,12 +4313,12 @@ msgstr "περιγράψτε το περιεχόμενος της σελίδας
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "ex: About us"
-msgstr ""
+msgstr "π.χ. Σχετικά με εμάς"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "ex: Blog, Success stories, References, Events, Jobs"
-msgstr ""
+msgstr "π.χ.: Blog, Ιστορίες Επιτυχιών, Συστάσεις, Εκδηλώσεις, Επαγγέλματα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4328,7 +4328,7 @@ msgstr "π.χ.: Επικοινωνήστε μαζί μας, οι πελάτες 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "ex: interesting contents, texts and articles"
-msgstr ""
+msgstr "π.χ.: ενδιαφέρον περιεχόμενο, κείμενα και άρθρα"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4367,29 +4367,29 @@ msgstr "https://plus.google.com/+Odooapps"
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://twitter.com/Odoo"
-msgstr ""
+msgstr "https://twitter.com/Odoo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "https://www.facebook.com/Odoo"
-msgstr ""
+msgstr "https://www.facebook.com/Odoo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.facebook.com/odoo"
-msgstr ""
+msgstr "https://www.facebook.com/odoo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.linkedin.com/company/odoo"
-msgstr ""
+msgstr "https://www.linkedin.com/company/odoo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.youtube.com/user/OpenERPonline"
-msgstr ""
+msgstr "https://www.youtube.com/user/OpenERPonline"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -4425,7 +4425,7 @@ msgstr "ir.attachment"
 #. module: website
 #: model:ir.model,name:website.model_ir_qweb
 msgid "ir.qweb"
-msgstr ""
+msgstr "ir.qweb"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_ui_view
@@ -4465,7 +4465,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "peek.usertesting.com"
-msgstr ""
+msgstr "peek.usertesting.com"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4506,17 +4506,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "to get started."
-msgstr ""
+msgstr "για να ξεκινήσετε."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "url"
-msgstr ""
+msgstr "Διεύθυνση Url"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "user / month (billed annually)"
-msgstr ""
+msgstr "χρήστης / μήνα (ετήσια τιμολόγηση)"
 
 #. module: website
 #. openerp-web
@@ -4539,7 +4539,7 @@ msgstr "website.config.settings"
 #. module: website
 #: model:ir.model,name:website.model_website_published_mixin
 msgid "website.published.mixin"
-msgstr ""
+msgstr "website.published.mixin"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500

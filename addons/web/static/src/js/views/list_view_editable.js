@@ -402,6 +402,17 @@ ListView.include(/** @lends instance.web.ListView# */{
         return cells;
     },
     /**
+     * Prevent reloading content while an ongoing save
+     */
+    reload_content_when_ready: function() {
+        var self = this;
+        var self_super = this._super;
+        var original_arguments = arguments;
+        return this.saving_mutex.exec(function() {
+            return self_super.apply(self, original_arguments);
+        });
+    },
+    /**
      * If currently editing a row, resizes all registered form fields based
      * on the corresponding row cell
      */
@@ -439,7 +450,7 @@ ListView.include(/** @lends instance.web.ListView# */{
     /**
      * @return {jQuery.Deferred}
      */
-    save_edition: function () {
+    save_edition: function (cancel_onfail) {
         var self = this;
         return self.saving_mutex.exec(function() {
             if (!self.editor.is_editing()) {
@@ -474,7 +485,9 @@ ListView.include(/** @lends instance.web.ListView# */{
                             return {created: created, record: record};
                         });
                 }, function() {
-                    return self.cancel_edition();
+                    if (cancel_onfail) {
+                        return self.cancel_edition();
+                    }
                 });
             });
         });
@@ -630,7 +643,8 @@ ListView.include(/** @lends instance.web.ListView# */{
             if (saveInfo.created) {
                 return self.start_edition();
             }
-            var record = self.records[next_record](saveInfo.record);
+            var options = { wraparound: !self.is_action_enabled('create') };
+            var record = self.records[next_record](saveInfo.record, options);
             if (record === undefined) {
                 return self.start_edition();
             }

@@ -3,13 +3,14 @@
 # * base_import
 # 
 # Translators:
+# Shaima Safar <shaima.safar@open-inside.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-18 13:40+0000\n"
-"PO-Revision-Date: 2016-05-15 20:50+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-03-17 16:53+0000\n"
+"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/odoo/odoo-9/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -293,7 +294,7 @@ msgstr "الترميز:"
 #: code:addons/base_import/models.py:204
 #, python-format
 msgid "Error cell found while reading XLS/XLSX file: %s"
-msgstr ""
+msgstr "تم العثور على خطأ بخلية عند قراءة ملف XLS/XLSX: %s"
 
 #. module: base_import
 #. openerp-web
@@ -616,7 +617,7 @@ msgstr "استيراد"
 #: code:addons/base_import/static/src/js/import.js:147
 #, python-format
 msgid "Import a File"
-msgstr ""
+msgstr "استيراد ملف"
 
 #. module: base_import
 #. openerp-web
@@ -954,14 +955,14 @@ msgstr "تتبع الأحداث أثناء الاستيراد"
 #: code:addons/base_import/models.py:173
 #, python-format
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
-msgstr ""
+msgstr "لا نستطيع تحميل الملف \"{extension}\": نحتاج لموديول البايثون \"{modname}\""
 
 #. module: base_import
 #: code:addons/base_import/models.py:174
 #, python-format
 msgid ""
 "Unsupported file format \"{}\", import only supports CSV, ODS, XLS and XLSX"
-msgstr ""
+msgstr "صيغة الملف غير مدعومة \"{}\", الاستيراد يدعم ملفات CSV وODS وXLS و XLSX فقط"
 
 #. module: base_import
 #. openerp-web
@@ -1096,7 +1097,7 @@ msgstr "at row %d"
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_import
 msgid "base_import.import"
-msgstr ""
+msgstr "base_import.import"
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char

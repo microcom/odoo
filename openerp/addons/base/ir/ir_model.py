@@ -141,10 +141,8 @@ class ir_model(osv.osv):
             for model in self.browse(cr, user, ids, context):
                 if model.state != 'manual':
                     raise UserError(_("Model '%s' contains module data and cannot be removed!") % (model.name,))
-
-        # prevent screwing up fields that depend on these models' fields
-        for model in self.browse(cr, user, ids, context=context):
-            model.field_id._prepare_update()
+                # prevent screwing up fields that depend on these models' fields
+                model.field_id._prepare_update()
 
         self._drop_table(cr, user, ids, context)
         res = super(ir_model, self).unlink(cr, user, ids, context)
@@ -378,6 +376,13 @@ class ir_model_fields(osv.osv):
     def _onchange_ttype(self):
         self.copy = (self.ttype != 'one2many')
         if self.ttype == 'many2many' and self.model_id and self.relation:
+            if self.relation not in self.env:
+                return {
+                    'warning': {
+                        'title': _('Model %s does not exist') % self.relation,
+                        'message': _('Please specify a valid model for the object relation'),
+                    }
+                }
             names = self._custom_many2many_names(self.model_id.model, self.relation)
             self.relation_table, self.column1, self.column2 = names
         else:
@@ -422,7 +427,8 @@ class ir_model_fields(osv.osv):
             if field.state == 'manual' and field.ttype == 'many2many':
                 rel_name = field.relation_table or model._fields[field.name].relation
                 tables_to_drop.add(rel_name)
-            model._pop_field(cr, uid, field.name, context=context)
+            if field.state == 'manual':
+                model._pop_field(cr, uid, field.name, context=context)
 
         if tables_to_drop:
             # drop the relation tables that are not used by other fields
@@ -720,8 +726,6 @@ class ir_model_relation(Model):
         for table in to_drop_table:
             cr.execute('DROP TABLE %s CASCADE'% table,)
             _logger.info('Dropped table %s', table)
-
-        cr.commit()
 
 class ir_model_access(osv.osv):
     _name = 'ir.model.access'
@@ -1295,7 +1299,6 @@ class ir_model_data(osv.osv):
         unlink_if_refcount((model, res_id) for model, res_id in to_unlink
                                 if model == 'ir.model')
 
-        cr.commit()
 
         self.unlink(cr, uid, ids, context)
 

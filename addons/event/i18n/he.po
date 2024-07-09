@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-01 06:27+0000\n"
-"PO-Revision-Date: 2016-07-23 18:10+0000\n"
-"Last-Translator: ilan kl <ilan@qaroads.co.il>\n"
+"POT-Creation-Date: 2016-09-22 13:16+0000\n"
+"PO-Revision-Date: 2019-04-19 08:04+0000\n"
+"Last-Translator: דודי מלכה <Dudimalka6@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_cancel_state
@@ -52,8 +52,8 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_2
 msgid ""
-"<em>(Chamber Works reserves the right to cancel, re-name or re-"
-"locate<br/>the event or change the dates on which it is held.)</em>"
+"<em>(Chamber Works reserves the right to cancel, re-name or re-locate<br>the"
+" event or change the dates on which it is held.)</em>"
 msgstr ""
 
 #. module: event
@@ -877,7 +877,7 @@ msgstr ""
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_registration_search
 msgid "Expected"
-msgstr ""
+msgstr "צפוי"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_kanban
@@ -904,13 +904,13 @@ msgstr "עוקבים"
 #: model:ir.model.fields,field_description:event.field_event_event_message_channel_ids
 #: model:ir.model.fields,field_description:event.field_event_registration_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "עוקבים (ערוצים)"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_message_partner_ids
 #: model:ir.model.fields,field_description:event.field_event_registration_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "עוקבים (שותפים)"
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -1011,7 +1011,7 @@ msgstr "אם מסומן אז הודעה חדשה דורשת התייחסותכם
 #: model:ir.model.fields,help:event.field_event_event_message_needaction
 #: model:ir.model.fields,help:event.field_event_registration_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "אם סומן, הודעות חדשות דורשות את תשומת הלב שלך."
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_state
@@ -1091,7 +1091,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_event_message_is_follower
 #: model:ir.model.fields,field_description:event.field_event_registration_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "האם עוקב"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type_default_registration_max
@@ -1233,12 +1233,6 @@ msgid "Messages"
 msgstr "הודעות"
 
 #. module: event
-#: model:ir.model.fields,help:event.field_event_event_message_ids
-#: model:ir.model.fields,help:event.field_event_registration_message_ids
-msgid "Messages and communication history"
-msgstr "היסטוריית הודעות ותקשורת"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_seats_min
 msgid "Minimum Attendees"
 msgstr ""
@@ -1375,7 +1369,7 @@ msgstr "מארגן"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_registration_search
 msgid "Participant"
-msgstr ""
+msgstr "משתתף"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_name_registration
@@ -1772,7 +1766,7 @@ msgstr "הודעות שלא נקראו"
 #: model:ir.model.fields,field_description:event.field_event_event_message_unread_counter
 #: model:ir.model.fields,field_description:event.field_event_registration_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "מונה הודעות שלא נקראו"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_config_settings_auto_confirmation
@@ -1812,16 +1806,6 @@ msgstr ""
 msgid ""
 "Warning: This Event has not reached its Minimum Registration Limit. Are you "
 "sure you want to confirm it?"
-msgstr ""
-
-#. module: event
-#: model:ir.model.fields,field_description:event.field_event_event_website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: event
-#: model:ir.model.fields,help:event.field_event_event_website_message_ids
-msgid "Website communication history"
 msgstr ""
 
 #. module: event

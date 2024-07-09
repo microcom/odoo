@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 15:46+0000\n"
-"PO-Revision-Date: 2016-09-01 06:33+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-07-23 07:55+0000\n"
+"Last-Translator: Arnau Ros\n"
 "Language-Team: Catalan (http://www.transifex.com/odoo/odoo-9/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgstr "%s (còpia)"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -243,7 +243,7 @@ msgstr "Rebot"
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 #: selection:mail.mail.statistics,state:0
 msgid "Bounced"
-msgstr ""
+msgstr "Rebotat"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_bounced_ratio
@@ -323,7 +323,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid "Clicks"
-msgstr ""
+msgstr "Clics"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_color
@@ -466,7 +466,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 #: model:mail.mass_mailing,body_html:mass_mailing.mass_mail_1
 msgid "Dear ${object.name}"
-msgstr ""
+msgstr "Benvolgut/da ${object.name}"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -533,7 +533,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_res_id
 msgid "Document ID"
-msgstr ""
+msgstr "ID del document"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_model
@@ -1301,7 +1301,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_reply_to
 msgid "Reply To"
-msgstr ""
+msgstr "Respondre a"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_reply_to_mode
@@ -1520,12 +1520,12 @@ msgstr "Estat"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Step 1"
-msgstr ""
+msgstr "Pas 1"
 
 #. module: mass_mailing
 #: model:mail.mass_mailing,body_html:mass_mailing.mass_mail_1
 msgid "Step 1:"
-msgstr ""
+msgstr "Pas 1:"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -1629,11 +1629,6 @@ msgid "Total"
 msgstr "Total"
 
 #. module: mass_mailing
-#: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_links_search
-msgid "Tracked Link"
-msgstr ""
-
-#. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Tracking"
@@ -1658,7 +1653,7 @@ msgstr "Comptador de missatges no llegits"
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 #: model:mail.mass_mailing,body_html:mass_mailing.mass_mail_1
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Donar-se de baixa"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_unsubscription_date
@@ -1713,7 +1708,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Your Logo"
-msgstr ""
+msgstr "El seu Logo"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets

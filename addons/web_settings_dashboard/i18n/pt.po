@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-17 08:01+0000\n"
-"PO-Revision-Date: 2016-06-17 08:57+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2018-10-25 12:15+0000\n"
+"Last-Translator: Diogo Fonseca <dsf@thinkopensolutions.pt>\n"
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgstr "Utilizador Ativo"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:57
 #, python-format
 msgid "Active Users"
-msgstr ""
+msgstr "Utilizadores Ativos"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -87,7 +87,7 @@ msgstr "Siga estas ajudas na implementação para retirar o máximo do Odoo."
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:149
 #, python-format
 msgid "Get more features with the Enterprise Edition!"
-msgstr ""
+msgstr "Obter mais funcionalidades com a Enterprise Edition!"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -150,7 +150,7 @@ msgstr "Nenhum app instalada"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:148
 #, python-format
 msgid "Odoo Enterprise"
-msgstr ""
+msgstr "Odoo - Empresa"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -185,7 +185,7 @@ msgstr "Loja de Temas"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:152
 #, python-format
 msgid "Upgrade Now"
-msgstr ""
+msgstr "Atualize agora"
 
 #. module: web_settings_dashboard
 #: model:ir.model,name:web_settings_dashboard.model_res_users

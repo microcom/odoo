@@ -3,6 +3,7 @@
 # * purchase
 # 
 # Translators:
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019
 # Bogdan, 2015
 # Bohdan Lisnenko, 2015-2016
 # Bohdan Lisnenko, 2016
@@ -11,14 +12,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
-"PO-Revision-Date: 2016-09-04 17:37+0000\n"
-"Last-Translator: Bohdan Lisnenko\n"
+"PO-Revision-Date: 2019-07-18 13:25+0000\n"
+"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -34,7 +35,7 @@ msgid ""
 "       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
 "       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
 "       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />\n"
-"       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
+"       &nbsp;&nbsp;Order date: ${format_tz(object.date_order, tz=user.tz, context={'lang':object.partner_id.lang})}<br />\n"
 "       % if object.origin:\n"
 "       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
 "       % endif\n"
@@ -73,7 +74,7 @@ msgid ""
 "    </div>\n"
 "</div>\n"
 "            "
-msgstr "\n<div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n\n    <p>Вітаємо ${object.partner_id.name},</p>\n    \n    <p>Ось ${object.state in ('draft', 'sent') and 'запит комерційної пропозиції' or 'підтвердження замовлення на купівлю'} від ${object.company_id.name}: </p>\n    \n    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n       &nbsp;&nbsp;<strong>ПОСИЛАННЯ</strong><br />\n       &nbsp;&nbsp;Номер замовлення: <strong>${object.name}</strong><br />\n       &nbsp;&nbsp;Загальна сума: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />\n       &nbsp;&nbsp;Дата замовлення: ${object.date_order}<br />\n       % if object.origin:\n       &nbsp;&nbsp;Джерело: ${object.origin}<br />\n       % endif\n       % if object.partner_ref:\n       &nbsp;&nbsp;Ваші посиланя: ${object.partner_ref}<br />\n       % endif\n       % if object.validator:\n       &nbsp;&nbsp;Контактна особа: <a href=\"mailto:${object.validator.email or ''}?subject=Замовлення%20${object.name}\">${object.validator.name}</a>\n       % endif\n    </p>\n\n    <br/>\n    <p>Якщо у вас виникли запитання, звертайтеся до нас.</p>\n    <p>Дякуємо!</p>\n    <br/>\n    <br/>\n    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n    </div>\n    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n        ${object.company_id.partner_id.sudo().with_context(show_address=True, html_format=True).name_get()[0][1] | safe}\n        </span>\n        % if object.company_id.phone:\n            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n                Телефон:&nbsp; ${object.company_id.phone}\n            </div>\n        % endif\n        % if object.company_id.website:\n            <div>\n                Веб:&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n            </div>\n        %endif\n        <p></p>\n    </div>\n</div>\n            "
+msgstr ""
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase
@@ -88,7 +89,7 @@ msgid ""
 "    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
 "       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
 "       &nbsp;&nbsp;RFQ number: <strong>${object.name}</strong><br />\n"
-"       &nbsp;&nbsp;RFQ date: ${object.date_order}<br />\n"
+"       &nbsp;&nbsp;RFQ date: ${format_tz(object.date_order, tz=user.tz, context={'lang':object.partner_id.lang})}<br />\n"
 "       % if object.origin:\n"
 "       &nbsp;&nbsp;RFQ reference: ${object.origin}<br />\n"
 "       % endif\n"
@@ -127,7 +128,7 @@ msgid ""
 "    </div>\n"
 "</div>\n"
 "            "
-msgstr "\n<div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n\n    <p>Вітаємо ${object.partner_id.name},</p>\n    \n    <p>Ось ${object.state in ('draft', 'sent') and 'запит комерційної пропозиції' or 'підтвердження замовлення на купівлю'} від ${object.company_id.name}: </p>\n    \n    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n       &nbsp;&nbsp;<strong>ПОСИЛАННЯ</strong><br />\n       &nbsp;&nbsp;ЗКП номер: <strong>${object.name}</strong><br />\n       &nbsp;&nbsp;Дата ЗКП: ${object.date_order}<br />\n       % if object.origin:\n       &nbsp;&nbsp;Джерело ЗКП: ${object.origin}<br />\n       % endif\n       % if object.partner_ref:\n       &nbsp;&nbsp;Ваші посилання: ${object.partner_ref}<br />\n       % endif\n       % if object.validator:\n       &nbsp;&nbsp;Контактна особа: <a href=\"mailto:${object.validator.email or ''}?subject=Замовлення%20${object.name}\">${object.validator.name}</a>\n       % endif\n    </p>\n\n    <br/>\n    <p>Якщо у вас виникли запитання, звертайтеся до нас.</p>\n    <p>Дякуємо!</p>\n    <br/>\n    <br/>\n    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n    </div>\n    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n        ${object.company_id.partner_id.sudo().with_context(show_address=True, html_format=True).name_get()[0][1] | safe}\n        </span>\n        % if object.company_id.phone:\n            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n                Телефон:&nbsp; ${object.company_id.phone}\n            </div>\n        % endif\n        % if object.company_id.website:\n            <div>\n                Веб:&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n            </div>\n        %endif\n        <p></p>\n    </div>\n</div>\n            "
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_module_stock_dropshipping
@@ -879,7 +880,7 @@ msgstr "Керувати ціною постачальника на формі �
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
 msgid "Manager"
-msgstr "Менеджер"
+msgstr "Керівник"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
@@ -1267,7 +1268,7 @@ msgstr "Під час закупівлі створюється чорнове �
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_stock_warehouse_buy_to_resupply
 msgid "Purchase to resupply this warehouse"
-msgstr "Придбати для поповнення цього складу"
+msgstr "Купувати для поповнення цього складу"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_negociation
@@ -1750,7 +1751,7 @@ msgstr "Ціна постачальника"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_partner_ref
 msgid "Vendor Reference"
-msgstr "Посилання на постачальника"
+msgstr "Референс постачальника"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
@@ -1790,7 +1791,7 @@ msgstr "Історія бесіди на веб-сайті"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_stock_warehouse_buy_to_resupply
 msgid "When products are bought, they can be delivered to this warehouse"
-msgstr "Коли товари куплкно, вони можуть бути доставлені на цей склад."
+msgstr "При купівлі товари можуть бути доставлені на цей склад."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_product_variant

@@ -3,20 +3,20 @@
 # * web
 # 
 # Translators:
-# fishfurbanter <fishfurbanter@gmail.com>, 2016
+# Fishfur A Banter <fishfurbanter@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-18 04:43+0000\n"
-"PO-Revision-Date: 2016-07-24 08:23+0000\n"
-"Last-Translator: fishfurbanter <fishfurbanter@gmail.com>\n"
+"PO-Revision-Date: 2019-08-21 15:45+0000\n"
+"Last-Translator: Amit Spilman <amit@laylinetech.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: web
 #. openerp-web
@@ -771,7 +771,7 @@ msgstr "האם אתם באמת רוצים להסיר רשומות אלו?"
 #: code:addons/web/static/src/xml/base.xml:82
 #, python-format
 msgid "Documentation"
-msgstr ""
+msgstr "תיעוד"
 
 #. module: web
 #. openerp-web
@@ -873,6 +873,13 @@ msgstr "סיום הדרכה זו"
 #, python-format
 msgid "Error"
 msgstr "שגיאה"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:458
+#, python-format
+msgid "Error: Bad domain"
+msgstr "אזהרה: כתובת אינטרנט שגויה"
 
 #. module: web
 #: code:addons/web/controllers/main.py:838
@@ -1145,6 +1152,15 @@ msgid "Invalid data"
 msgstr "מידע לא חוקי"
 
 #. module: web
+#: code:addons/web/controllers/main.py:655
+#: code:addons/web/controllers/main.py:669
+#, python-format
+msgid ""
+"Invalid database name. Only alphanumerical characters, underscore, hyphen "
+"and dot are allowed."
+msgstr ""
+
+#. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/debug_manager.js:106
 #: code:addons/web/static/src/xml/base.xml:211
@@ -1285,7 +1301,7 @@ msgstr "מומלץ לנסות לטעון מחדש על ידי לחיצה על F5
 #: code:addons/web/static/src/xml/base.xml:570
 #, python-format
 msgid "Measure"
-msgstr ""
+msgstr "מדידה"
 
 #. module: web
 #. openerp-web
@@ -1503,7 +1519,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:328
 #, python-format
-msgid "No value found for the field  for value "
+msgid "No value found for the field %s for value %s"
 msgstr ""
 
 #. module: web
@@ -1575,7 +1591,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1675
 #, python-format
 msgid "Odoo Enterprise"
-msgstr ""
+msgstr "Odoo אנטרפרייז"
 
 #. module: web
 #. openerp-web
@@ -1707,7 +1723,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/pivot_view.js:25
 #, python-format
 msgid "Pivot"
-msgstr ""
+msgstr "ציר"
 
 #. module: web
 #. openerp-web
@@ -1784,8 +1800,8 @@ msgstr "הדפסת תהליך עבודה"
 #: code:addons/web/static/src/xml/base.xml:578
 #: code:addons/web/static/src/xml/base.xml:610
 #, python-format
-msgid "Quantity"
-msgstr "כמות"
+msgid "Count"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2087,6 +2103,13 @@ msgstr "תרגום טכני"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:458
+#, python-format
+msgid "The domain is wrong."
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1208
 #, python-format
 msgid "The field is empty, there's nothing to save !"
@@ -2328,7 +2351,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1658
 #, python-format
 msgid "Upgrade now"
-msgstr ""
+msgstr "שדרג עכשיו"
 
 #. module: web
 #. openerp-web
@@ -2351,7 +2374,7 @@ msgstr "מעלה..."
 #: code:addons/web/static/src/js/widgets/sidebar.js:168
 #, python-format
 msgid "Uploading Error"
-msgstr ""
+msgstr "שגיאת העלאה"
 
 #. module: web
 #. openerp-web
@@ -2379,7 +2402,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:105
 #, python-format
 msgid "Version"
-msgstr ""
+msgstr "גירסה"
 
 #. module: web
 #. openerp-web
@@ -2462,6 +2485,12 @@ msgstr "הוכנס ערך שגוי!"
 #: code:addons/web/static/src/xml/base.xml:188
 #, python-format
 msgid "XML ID:"
+msgstr ""
+
+#. module: web
+#: code:addons/web/controllers/main.py:513
+#, python-format
+msgid "Wrong login/password"
 msgstr ""
 
 #. module: web
